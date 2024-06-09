@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "target": "es5",                     /* ECMAScript target version */
+      "module": "esnext",                  /* Module code generation */
+      "lib": ["dom", "dom.iterable", "esnext"], /* List of library files to be included in the compilation */
+      "jsx": "react",                      /* JSX target */
+      "strict": true,                      /* Enable all strict type-checking options */
+      "esModuleInterop": true,             /* Allow default imports from modules with no default export */
+      "skipLibCheck": true,                /* Skip type checking of declaration files */
+      "forceConsistentCasingInFileNames": true /* Enforce consistent casing in file names */
+    },
+    "include": [
+      "src"                               /* Include files to be compiled in the project */
+    ],
+    "exclude": [
+      "node_modules"                      /* Exclude files from compilation */
+    ]
+}
+  
